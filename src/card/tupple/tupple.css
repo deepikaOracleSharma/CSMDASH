@@ -1,0 +1,10 @@
+.tupple{
+    background: #f6632f;
+    padding: 15px;
+    color:#fff;
+}
+.tupple p{margin-bottom: 5px;}
+.tupple .react-sweet-progress-symbol{
+    color:#fff;
+}
+.tupple .progress span{color:#fff;}

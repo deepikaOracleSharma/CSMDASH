@@ -1,0 +1,297 @@
+
+body{
+  background:#eee;
+  color:#333;
+  font-size: 14px;
+  cursor:pointer;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6{padding:0;margin:0}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.main{margin-left: 150px;}
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+.m0{margin:0;}
+.m5{margin-top:5px;}
+.m10{margin-top:10px;}
+.m15{margin-top:15px;}
+.mb10{margin-bottom:10px;}
+.mb5{margin-bottom:5px;}
+.TbdGraph{
+  /* background-image: url(graph-border.png); */
+  background-repeat: repeat;
+  background-position: 0 10px;
+}
+.tbdGraph li{
+  list-style: none; 
+  border-top:1px solid #ddd; 
+  position: relative; 
+  margin:10px 0; 
+  height: 38px;
+}
+.tbdGraph li:first-child{margin-top:30px;}
+/* .tbdGraph li:last-child{border-bottom:none;} */
+.tbdGraph li span{
+  background:#fff; 
+  position: absolute; 
+  top:-11px; 
+  color:#999;
+  padding-right:15px;
+}
+.rv-xy-plot rect{fill:#fcd6c8 !important;}
+.rv-xy-plot rect:nth-child(even){fill:#ffbea7 !important;}
+.rv-xy-plot rect:hover{fill:#f6632f !important;}
+.QuaterTarget .rv-xy-plot rect:nth-child(even){fill:#fa9b9b !important;}
+.QuaterTarget .rv-xy-plot rect:nth-child(even):hover{fill:#f55454 !important;}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.btn-group, .btn-group-vertical{
+  display:initial;
+  float:right;
+  margin-bottom:30px;
+}
+.btn-group, .btn a{
+  color:#FFF;
+  text-decoration: none;
+}
+.LobUsage{
+  background:#fff;
+  padding:15px;
+  float: left;
+  width: 100%;
+  border: 1px solid rgba(0,0,0,.125);
+}
+.LobCover{
+  display:flex;
+  justify-content: space-around;
+  margin-top:50px;
+}
+.LobUsage h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.btn-sm{
+  border-radius:0;
+}
+.inline{
+  display:inline-block;
+}
+.nav-tabs{
+  border:none;
+
+}
+.nav li {
+  position: relative;
+  display: block;
+  padding: 10px 7.1%;
+  background: #eee;
+  border: 1px solid #ddd;
+  border-bottom:none;
+  border-right:none;
+  top:2px;
+}
+.nav li:last-child{border-right: 1px solid #ddd;}
+.nav li a{color:#666; text-decoration: none;}
+.nav li.active a{color:#f55454; text-decoration: none;}
+.nav-tabs>li.active, .nav-tabs>li:active, .nav-tabs>li:focus, .nav-tabs>li:hover {
+  color: #f55454;
+  cursor: default;
+  background-color: #fff;
+  text-decoration: none;
+  border-bottom-color: transparent;
+  z-index: 1;
+  top:2px;
+}
+.pos-relative{
+  position: relative;
+  top: -30px;
+}
+.title6{margin:20px 0;}
+.progress-bar.active, .progress.active .progress-bar {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  -o-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+  background-color: #41c3f2;
+}
+.progress{
+  width: 100%;
+  margin: 0 auto;
+  max-height:6px;
+  overflow: inherit;
+}
+.paddling-left{padding-left:0;}
+
+
+.progress span{position: relative; top:18px; color:#333;}
+.progress .progress-bar-striped{ border-radius: 8px;}
+.minProgress{
+  position: relative;
+  top: 0;
+  font-size: 14px;
+}
+
+.firstCont{
+  background-image: linear-gradient(to right, #fc6e51, #fd6753, #fe6055, #ff5957, #ff515a) !important;
+}
+
+.secCont{
+  background-image: linear-gradient(to right, #48cfad, #37d0a1, #2ad092, #25d081, #29cf6e) !important;
+}
+.thirdCont{
+  background-image: linear-gradient(to right, #ffce54, #ffc553, #ffbc53, #ffb353, #ffaa54) !important;
+}
+.tuppl .col-md-3{
+padding-right:0;
+}
+.tuppl .col-md-3:last-child{
+  padding-right:15px;
+  }
+.fourthCont{
+  background-image: linear-gradient(to right, #38afda, #21aac7, #1ea5b2, #2b9e9d, #3b9789) !important;
+}
+.tupple .maxProgress{
+  font-size:11px;
+  right: 1px;
+  width: 60px;
+  padding-top: 17px;
+  padding-left: 7px;
+
+}
+.maxProgress{
+  position: relative;
+  top: 0;
+  right:2px;
+  font-size: 11px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  padding: 0px;
+  padding-top: 17px;
+  padding-left: 3px;
+  background: rgba(218, 223, 218, 0.4);
+  font-weight:bold;
+}
+.progress-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.productUsage{
+  width:40%;
+  float:left;
+}
+.productUsage ul{padding:0px; margin:0px;}
+.productUsage ul li:first-child {color: #25b2f7;font-weight: bold;font-size: 16px;}
+.productUsage ul li:first-child:hover span{color: #25b2f7}
+.productUsage ul li:nth-child(even){background: #eee;}
+.productUsage ul li{
+  padding:12px 0px;
+  color:#999;
+  list-style:none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.productUsage ul li span{padding: 0 10px;}
+.productUsage ul li strong{padding: 0 10px;}
+.productUsage ul li:hover span {color: #333;}
+.productUsage ul li:hover strong {color: #25b2f7;}
+.recharts-wrapper{
+  float:left;
+}
+.comingSoon{
+  text-align:center;
+}
+.btn-default a{
+  color:#333;
+}
+.btn-tab:hover,.btn-tab.active,.btn-tab:focus,.btn-tab:active .btn-tab.active a{
+  background:#fC6E51;
+  border:1px solid #fC6E51;
+  color:#FFF;
+}
+.btn-tab:hover a{
+  color:#FFF;
+}
+.hide{
+  display:none;
+}
+.info{
+  width: 226px;
+  transform: rotate(-90deg);
+  position: relative;
+  right: 86px;
+  top: 168px;
+  font-size:14px
+}
+.textVal{
+  transform: rotate(-91deg);
+  position: relative;
+  left: 33%;
+}
+.lobName{
+  margin-left:10px;
+}
+.LobCover .maxProgress{
+  width: 63px;
+  height: 54px;
+  text-align: center;
+  padding-top: 19px;
+}
+.bold{
+  font-size:14px;
+  color:#999;
+  font-weight:bold;
+  margin-right:10px;
+}
+.LobCover .progress-bar span{
+  font-weight:bold;
+  color:#999;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #eee;
+  color: #000;
+  text-align: center;
+  padding:10px;
+  border:1px #eee;
+}
+.footer img{
+  float:left;
+  z-index:9999;
+  margin: 11px 0;
+}
+.footer p{
+  width: 32%;
+  margin: 0 auto 0;
+  position: relative;
+  clear: both;
+  top: 30px;
+  display: inline-block;
+}
+.btn-last{
+  margin-left: -5px;
+}
+.updatedate{
+  display: inline;
+  text-align: center;
+  margin: -40px auto;
+  font-weight: bold;
+  color: #999;
+  float: right;
+}
